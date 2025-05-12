@@ -1,0 +1,40 @@
+﻿@model PaymentListViewModel
+@{
+    ViewBag.Title = "Payment Manager";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Payment Date</th>
+            <th>Payment Amount</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var payment in Model.Payments)
+        {
+            <tr>
+                <td>@payment.Customer.FullName</td>
+                <td>@payment.PaymentDate</td>
+                <td>@payment.PaymentAmount</td>
+                <td>
+                    <a asp-action="Edit"
+                   asp-route-id="@payment.PaymentID"
+                   class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Delete"
+                   asp-route-id="@payment.PaymentID"
+                   class="btn btn-primary">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Add" class="btn btn-primary mb-3">Add Payment</a>

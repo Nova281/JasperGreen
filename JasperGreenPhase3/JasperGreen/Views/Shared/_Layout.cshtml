@@ -1,0 +1,83 @@
+﻿<!--  AUTHOR:     Benz Le and Harrison Lee
+//  COURSE:     ISTM 415
+//  PROGRAM:    Jasper Green Web App
+//  PURPOSE:    This html allows us to top navigation bar of the Jasper Green Customer Management System
+//  HONOR CODE: On my honor, as an Aggie, I have neither given 
+//              nor received unauthorized aid on this academic work. -->
+
+@{
+    string controller = ViewContext.RouteData.Values["controller"]?.ToString() ?? "";
+    string action = ViewContext.RouteData.Values["action"]?.ToString() ?? "";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - JasperGreen</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/JasperGreen.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark mb-3">
+            <div class="container-fluid">
+                <!--<a class="navbar-brand" href="/">Jasper Green</a>-->
+                <a href="/"><img src="~/images/JasperGreenLogo.png" alt="Logo" height="80px"></a>
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav me-auto">
+                        <a class="nav-item nav-link @(controller == "Home" && action == "Index" ? "active" : "")"
+                           asp-controller="Home" asp-action="Index">Home</a>
+                        <a class="nav-item nav-link @(controller == "Customer" ? "active" : "")"
+                           asp-controller="Customer" asp-action="List">Customers</a>
+                        <a class="nav-item nav-link @(controller == "Property" ? "active" : "")"
+                           asp-controller="Property" asp-action="List">Properties</a>
+                        <a class="nav-item nav-link @(controller == "Employee" ? "active" : "")"
+                           asp-controller="Employee" asp-action="List">Employees</a>
+                        <a class="nav-item nav-link @(controller == "Crew" ? "active" : "")"
+                           asp-controller="Crew" asp-action="List">Crew</a>
+                        <a class="nav-item nav-link @(controller == "ProvideService" ? "active" : "")"
+                           asp-controller="ProvideService" asp-action="List">Services</a>
+                        <a class="nav-item nav-link @(controller == "Payment" ? "active" : "")"
+                           asp-controller="Payment" asp-action="List">Payment</a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-item nav-link @(controller == "Home" && action == "Contact" ? "active" : "")"
+                           asp-controller="Home" asp-action="Contact">Contact Us</a>
+                        <a class="nav-item nav-link @(controller == "Home" && action == "About" ? "active" : "")"
+                           asp-controller="Home" asp-action="About">About</a>
+                    </div>
+                </nav>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @if (TempData.Keys.Contains("message"))
+            {
+                <h2 class="bg-info text-white text-center p-2 mt-2 rounded">@TempData["message"]</h2>
+            }
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; @DateTime.Now.Year - JasperGreen - Bombastic Burgundy Baboons
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,46 @@
+﻿@model PropertyListViewModel
+@{
+    ViewBag.Title = "Property Manager";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Customer</th>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Zip</th>
+            <th>Service Fee</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var property in Model.Properties)
+        {
+            <tr>
+                <td>@property.Customer.FullName</td>
+                <td>@property.PropertyAddress</td>
+                <td>@property.PropertyCity</td>
+                <td>@property.PropertyState</td>
+                <td>@property.PropertyZip</td>
+                <td>@property.ServiceFee</td>
+                <td>
+                    <a asp-action="Edit"
+                       asp-route-id="@property.PropertyID"
+                       class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Delete"
+                       asp-route-id="@property.PropertyID"
+                       class="btn btn-primary">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Add" class="btn btn-primary mb-3">Add Property</a>

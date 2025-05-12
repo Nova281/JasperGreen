@@ -1,0 +1,14 @@
+﻿@model Crew
+@{
+    ViewBag.Title = "Select Crew";
+}
+
+<h1>Select Crew</h1>
+
+<form asp-action="Crew" method="post">
+    <select asp-for="CrewID" class="form-select"
+            asp-items="@(new SelectList(ViewBag.Crews, "CrewID", "CrewName"))">
+        <option value="0">Select a crew...</option>
+    </select>
+    <button type="submit" class="btn btn-primary mt-2">Select</button>
+</form>

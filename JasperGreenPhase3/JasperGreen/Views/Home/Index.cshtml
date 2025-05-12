@@ -1,0 +1,27 @@
+﻿<!--  AUTHOR:     Benz Le and Harrison Lee
+//  COURSE:     ISTM 415
+//  PROGRAM:    Jasper Green Web App
+//  PURPOSE:    This html allows us to show the index page of the JasperGreen Customer Management System
+//  HONOR CODE: On my honor, as an Aggie, I have neither given 
+//              nor received unauthorized aid on this academic work. -->
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Jasper Green Lawncare</h1>
+<p>Customer Management System for Jasper Green</p>
+
+<div class="list-group">
+    <a asp-controller="Customer" asp-action="List"
+       class="list-group-item">Manage Customers</a>
+    <a asp-controller="Property" asp-action="List"
+       class="list-group-item">Manage Properties</a>
+    <a asp-controller="Employee" asp-action="List"
+       class="list-group-item">Manage Employees</a>
+    <a asp-controller="Crew" asp-action="List"
+       class="list-group-item">Manage Crews</a>
+    <a asp-controller="ProvideService" asp-action="List"
+       class="list-group-item">Manage Services</a>
+    <a asp-controller="Payment" asp-action="List"
+       class="list-group-item">Manage Payments</a>
+</div>

@@ -1,0 +1,507 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\controllers\\provideservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\controllers\\provideservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\provideservice\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\provideservice\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\provideservice\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\provideservice\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\controllers\\crewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\controllers\\crewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\crew\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\crew\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\provideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\provideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\jaspergreencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\jaspergreencontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\viewmodels\\provideserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\viewmodels\\provideserviceviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\viewmodels\\provideservicelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\viewmodels\\provideservicelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\viewmodels\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\viewmodels\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\viewmodels\\propertylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\viewmodels\\propertylistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\viewmodels\\paymentlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\viewmodels\\paymentlistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\models\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\models\\viewmodels\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\customer\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\customer\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\customer\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\customer\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423075450_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JasperGreen\\Migrations\\20250423075450_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423075228_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JasperGreen\\Migrations\\20250423075228_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423074649_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:JasperGreen\\Migrations\\20250423074649_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\provideservice\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\provideservice\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\payment\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\payment\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\payment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\payment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\views\\payment\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\views\\payment\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|c:\\users\\benzn\\downloads\\jaspergreenphase3\\jaspergreen\\migrations\\20250423080304_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91F8B450-52B7-4A8F-82EF-F4F5367920CC}|JasperGreen\\JasperGreen.csproj|solutionrelative:jaspergreen\\migrations\\20250423080304_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 24,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "JasperGreen\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwCEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:12:42.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Crew\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\Crew\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Crew\\AddEdit.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\Crew\\AddEdit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T08:08:52.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\Property.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\Property.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\Property.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\Property.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:07:22.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250423080304_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423080304_Initial.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Migrations\\20250423080304_Initial.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423080304_Initial.cs",
+              "RelativeToolTip": "JasperGreen\\Migrations\\20250423080304_Initial.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T08:03:04.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Customer\\List.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\Customer\\List.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Customer\\List.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\Customer\\List.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T08:00:49.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Customer\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\Customer\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Customer\\AddEdit.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\Customer\\AddEdit.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-23T08:00:25.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250423075450_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423075450_Initial.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Migrations\\20250423075450_Initial.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423075450_Initial.cs",
+              "RelativeToolTip": "JasperGreen\\Migrations\\20250423075450_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:54:50.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250423075228_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423075228_Initial.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Migrations\\20250423075228_Initial.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423075228_Initial.cs",
+              "RelativeToolTip": "JasperGreen\\Migrations\\20250423075228_Initial.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:52:28.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JasperGreenContext.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\JasperGreenContext.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\JasperGreenContext.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\JasperGreenContext.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\JasperGreenContext.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwIMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:51:23.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "JasperGreen\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAWwDwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:48:46.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250423074649_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423074649_Initial.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Migrations\\20250423074649_Initial.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Migrations\\20250423074649_Initial.cs",
+              "RelativeToolTip": "JasperGreen\\Migrations\\20250423074649_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T07:46:49.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "JasperGreen\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "JasperGreen\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-23T07:12:11.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CrewController.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\CrewController.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Controllers\\CrewController.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\CrewController.cs",
+              "RelativeToolTip": "JasperGreen\\Controllers\\CrewController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAuwE0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:15:19.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\Customer.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\Customer.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T22:39:08.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Payment\\Delete.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\Payment\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Payment\\Delete.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\Payment\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:11:21.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Payment\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\Payment\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Payment\\AddEdit.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\Payment\\AddEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:10:04.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Payment\\List.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\Payment\\List.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\Payment\\List.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\Payment\\List.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:07:25.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ViewModels\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PaymentViewModel.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ViewModels\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:03:56.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PaymentListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PaymentListViewModel.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ViewModels\\PaymentListViewModel.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PaymentListViewModel.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ViewModels\\PaymentListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:03:48.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\ProvideService\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\ProvideService\\AddEdit.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\ProvideService\\AddEdit.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\ProvideService\\AddEdit.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAE0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T03:28:59.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProvideServiceViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\ProvideServiceViewModel.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ViewModels\\ProvideServiceViewModel.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\ProvideServiceViewModel.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ViewModels\\ProvideServiceViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T03:27:26.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\ProvideService\\Delete.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\ProvideService\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\ProvideService\\Delete.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\ProvideService\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T03:23:22.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\ProvideService\\List.cshtml",
+              "RelativeDocumentMoniker": "JasperGreen\\Views\\ProvideService\\List.cshtml",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Views\\ProvideService\\List.cshtml",
+              "RelativeToolTip": "JasperGreen\\Views\\ProvideService\\List.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T02:39:43.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProvideServiceListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\ProvideServiceListViewModel.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ViewModels\\ProvideServiceListViewModel.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\ProvideServiceListViewModel.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ViewModels\\ProvideServiceListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T02:30:03.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProvideServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\ProvideServiceController.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Controllers\\ProvideServiceController.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\ProvideServiceController.cs",
+              "RelativeToolTip": "JasperGreen\\Controllers\\ProvideServiceController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAUwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T02:23:30.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PropertyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PropertyViewModel.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ViewModels\\PropertyViewModel.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PropertyViewModel.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ViewModels\\PropertyViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:40:39.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PropertyListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PropertyListViewModel.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ViewModels\\PropertyListViewModel.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ViewModels\\PropertyListViewModel.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ViewModels\\PropertyListViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:40:19.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProvideService.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ProvideService.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Models\\ProvideService.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Models\\ProvideService.cs",
+              "RelativeToolTip": "JasperGreen\\Models\\ProvideService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA0wCsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T19:41:33.047Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "2bb0c09e-c1a0-40e6-9875-db4cc3134079",
+        "Display": 1,
+        "X": 250,
+        "Y": 126,
+        "Width": 1115,
+        "Height": 510,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "JasperGreen\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\Users\\benzn\\Downloads\\JasperGreenPhase3\\JasperGreen\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "JasperGreen\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwIMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:01:26.191Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

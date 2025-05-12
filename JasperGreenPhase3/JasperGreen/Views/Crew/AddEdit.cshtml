@@ -1,0 +1,64 @@
+﻿@model CrewViewModel
+@{
+    string title = ViewBag.Action + " Crew";
+    ViewBag.Title = title;
+}
+
+<h1>@ViewBag.Title</h1>
+
+<form asp-action="Save" method="post">
+
+     <div class="row mb-3">
+        <label asp-for="Crew.CrewName" class="col-form-label col-md-2">Crew Name</label>
+        <div class="col">
+            <input asp-for="Crew.CrewName" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="Crew.CrewName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="Crew.CrewForemanID" class="col-form-label col-md-2">Crew Foreman</label>
+        <div class="col">
+            <select asp-for="Crew.CrewForemanID" class="form-select"
+                    asp-items="@(new SelectList(Model.CrewForemans,
+                         "EmployeeID", "FullName"))">
+                <option value="">Assign an employee to a crew role...</option>
+            </select>
+        </div>
+        <div class="col">
+            <span asp-validation-for="Crew.CrewForemanID" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="Crew.CrewMember1ID" class="col-form-label col-md-2">Crew Member 1</label>
+        <div class="col">
+            <select asp-for="Crew.CrewMember1ID" class="form-select"
+                    asp-items="@(new SelectList(Model.CrewMember1s,
+                         "EmployeeID", "FullName"))">
+                <option value="">Assign an employee to a crew role...</option>
+            </select>
+        </div>
+        <div class="col">
+            <span asp-validation-for="Crew.CrewMember1ID" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="Crew.CrewMember2ID" class="col-form-label col-md-2">Crew Member 2</label>
+        <div class="col">
+            <select asp-for="Crew.CrewMember2ID" class="form-select"
+                    asp-items="@(new SelectList(Model.CrewMember2s,
+                         "EmployeeID", "FullName"))">
+                <option value="">Assign an employee to a crew role...</option>
+            </select>
+        </div>
+        <div class="col">
+            <span asp-validation-for="Crew.CrewMember2ID" class="text-danger"></span>
+        </div>
+    </div>
+
+    <input type="hidden" asp-for="Crew.CrewID" />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="List" class="btn btn-primary">Cancel</a>
+</form>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Employee>
+@{
+    ViewBag.Title = "Employee Manager";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Job Title</th>
+            <th>Hire Date</th>
+            <th>Hourly Rate</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+                <tr>
+                    <td>@employee.EmployeeFirstName @employee.EmployeeLastName</td>
+                    <td>@employee.JobTitle</td>
+                    <td>@employee.HireDate</td>
+                    <td>@employee.HourlyRate</td>
+                    <td>
+                        <a asp-action="Edit"
+                           asp-route-id="@employee.EmployeeID"
+                           class="btn btn-primary">Edit</a>
+                    </td>
+                    <td>
+                        <a asp-action="Delete"
+                           asp-route-id="@employee.EmployeeID"
+                           class="btn btn-primary">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Add" class="btn btn-primary mb-3">Add Employee</a>

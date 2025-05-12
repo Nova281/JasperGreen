@@ -1,0 +1,14 @@
+﻿@model Property
+@{
+    ViewBag.Title = "Select Property";
+}
+
+<h1>Select Property</h1>
+
+<form asp-action="Property" method="post">
+    <select asp-for="PropertyID" class="form-select"
+            asp-items="@(new SelectList(ViewBag.Properties, "PropertyID", "PropertyAddress"))">
+        <option value="0">Select a property...</option>
+    </select>
+    <button type="submit" class="btn btn-primary mt-2">Select</button>
+</form>

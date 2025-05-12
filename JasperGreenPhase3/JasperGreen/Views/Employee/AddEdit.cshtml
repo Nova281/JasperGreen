@@ -1,0 +1,95 @@
+﻿@model Employee
+@{
+    string title = ViewBag.Action + " Employee";
+    ViewBag.Title = title;
+}
+
+<h1>@ViewBag.Title</h1>
+
+<form asp-action="Save" smethod="post">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="row mb-3">
+        <label asp-for="EmployeeFirstName" class="col-form-label col-md-2">First Name</label>
+        <div class="col">
+            <input asp-for="EmployeeFirstName" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="EmployeeFirstName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="EmployeeLastName" class="col-form-label col-md-2">Last Name</label>
+        <div class="col">
+            <input asp-for="EmployeeLastName" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="EmployeeLastName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="SSN" class="col-form-label col-md-2">SSN</label>
+        <div class="col">
+            <input asp-for="SSN" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="SSN" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="JobTitle" class="col-form-label col-md-2">Job Title</label>
+        <div class="col">
+            <input asp-for="JobTitle" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="JobTitle" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="HireDate" class="col-form-label col-md-2">Hire Date</label>
+        <div class="col">
+            <input asp-for="HireDate" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="HireDate" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="HourlyRate" class="col-form-label col-md-2">Hourly Rate</label>
+        <div class="col">
+            <input asp-for="HourlyRate" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="HourlyRate" class="text-danger"></span>
+        </div>
+    </div>
+    @{
+        /*<div class="row mb-3">
+        <label asp-for="Email" class="col-form-label col-md-2">Email</label>
+        <div class="col">
+        <input asp-for="Email" class="form-control">
+        </div>
+        <div class="col">
+        <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        </div>
+        <div class="row mb-3">
+        <label asp-for="Phone" class="col-form-label col-md-2">Phone</label>
+        <div class="col">
+        <input asp-for="Phone" class="form-control">
+        </div>
+        <div class="col">
+        <span asp-validation-for="Phone" class="text-danger"></span>
+        </div>
+        </div>*/
+    }
+    <input type="hidden" asp-for="EmployeeID" />
+    <input type="hidden" asp-for="Crews" />
+    <input type="hidden" asp-for="Member1" />
+    <input type="hidden" asp-for="Member2" />
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="List" class="btn btn-primary">Cancel</a>
+</form>

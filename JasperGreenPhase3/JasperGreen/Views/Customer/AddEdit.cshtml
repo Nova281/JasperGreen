@@ -1,0 +1,79 @@
+﻿@model Customer
+@{
+    string title = ViewBag.Action + " Customer";
+    ViewBag.Title = title;
+}
+
+<h1>@ViewBag.Title</h1>
+
+<form asp-action="Save" method="post">
+
+    <div class="row mb-3">
+        <label asp-for="CustomerFirstName" class="col-form-label col-md-2">First Name</label>
+        <div class="col">
+            <input asp-for="CustomerFirstName" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="CustomerFirstName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="CustomerLastName" class="col-form-label col-md-2">Last Name</label>
+        <div class="col">
+            <input asp-for="CustomerLastName" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="CustomerLastName" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="BillingAddress" class="col-form-label col-md-2">Billing Address</label>
+        <div class="col">
+            <input asp-for="BillingAddress" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="BillingAddress" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="BillingCity" class="col-form-label col-md-2">Billing City</label>
+        <div class="col">
+            <input asp-for="BillingCity" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="BillingCity" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="BillingState" class="col-form-label col-md-2">Billing State</label>
+        <div class="col">
+            <input asp-for="BillingState" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="BillingState" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="BillingZip" class="col-form-label col-md-2">Billing ZIP</label>
+        <div class="col">
+            <input asp-for="BillingZip" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="BillingZip" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label asp-for="CustomerPhone" class="col-form-label col-md-2">Phone</label>
+        <div class="col">
+            <input asp-for="CustomerPhone" class="form-control">
+        </div>
+        <div class="col">
+            <span asp-validation-for="CustomerPhone" class="text-danger"></span>
+        </div>
+    </div>
+
+    <input type="hidden" asp-for="CustomerID" />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="List" class="btn btn-primary">Cancel</a>
+</form>
